@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} — Tutor Monni</title>
+  <meta name="description" content="Materiali didattici pubblici del Tutor Monni">
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 2rem; line-height: 1.6; }
+    code { background: #f3f3f3; padding: .1rem .3rem; border-radius: .25rem; }
+    pre { background: #f3f3f3; padding: 1rem; overflow-x: auto; border-radius: .4rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: .5rem; text-align: left; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    {{ content | safe }}
+  </main>
+</body>
+</html>
